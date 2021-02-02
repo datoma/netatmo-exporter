@@ -1,4 +1,4 @@
-# netatmo-exporter [![Docker Build Status](https://img.shields.io/docker/build/xperimental/netatmo-exporter.svg?style=flat-square)](https://hub.docker.com/r/xperimental/netatmo-exporter/)
+# netatmo-exporter [![Docker Build Status](https://img.shields.io/docker/cloud/build/xperimental/netatmo-exporter.svg?style=flat-square)](https://hub.docker.com/r/xperimental/netatmo-exporter/)
 
 Simple [prometheus](https://prometheus.io) exporter for getting sensor values [NetAtmo](https://www.netatmo.com) sensors into prometheus.
 
@@ -75,3 +75,7 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9210']
 ```
+
+## Links
+
+- [Grafana Dashboard](https://grafana.com/grafana/dashboards/13672) contributed by [@GordonFreemanK](https://github.com/GordonFreemanK)
